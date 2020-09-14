@@ -1,0 +1,63 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label {
+    font-weight: bold;
+}
+body {
+    background-color: #7681A4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table {
+    margin-top: 20px;
+    border: 0.1px solid black;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+}
+
+th span {
+    margin-left:-45px;
+}
+
+#sum {
+    margin-left:-84px;
+}
+
+th {
+    height: 20px;
+    border-bottom: 1px solid grey;
+    font-weight: normal;
+    padding: 5px;
+}
+
+td {
+    height: 20px;
+    border-bottom: 1px solid grey;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+input {
+    border-radius: 2px;
+    border: 0;
+    display: block;
+    padding: 0.5rem;
+    margin-top: 20px;
+    width: 200px;
+}
+
+button  {
+    border-radius: 3px;
+    border: 0;
+    padding: 0.5rem;
+    margin-top: 10px;
+    background-color: tomato;
+}
+
+#formueskatt {
+    background-color: whitesmoke;
+    width: 300px;
+    font-weight: bold;

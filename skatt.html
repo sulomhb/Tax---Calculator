@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skatt-beregning</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+    <h1>Skatt-kalkulator</h1>
+    <label for = "formue">Formue : </label>
+    <input type = "number" id = "formue" placeholder="Formue">
+    <button onclick="regnUtFormueSkatt()"> Regn ut formueskatt</button>
+    <p id="formueskatt"></p>
+
+<br/>
+<br/>
+<br/>
+    <label for = "bruttoinntekt">Bruttoinntekt : </label>
+    <input type = "number" id = "bruttoinntekt" placeholder="Bruttoinntekt">
+    <button onclick="skrivUtInntektSkatt()"> Regn ut inntektskatt</button>
+
+    
+<table>
+
+    <tr>
+        <th><span>Trinn 0 (0 - 180800) :</span></th>
+        <td id="trinn0"></td>
+    </tr>
+
+    <tr>
+        <th>Trinn 1 (180800 - 254500) :  </th>
+        <td id="trinn1"></td>
+    </tr>
+    
+    <tr>
+        <th>Trinn 2 (254500 - 639750) :  </th>
+        <td id="trinn2"></td>
+    </tr>
+    
+    <tr>
+        <th>Trinn 3 (639750 - 999550) :  </th>
+        <td id="trinn3"></td>
+    </tr>
+    
+    <tr>
+        <th><span>Trinn 4 (999550 -  ∞) :  </span></th>
+        <td id="trinn4"></td>
+    </tr>
+    
+    <tr>
+        <th><span id = "sum">SUM trinnskatt :</span></th>
+        <td id="trinnskatt"></td>
+    </tr>
+        
+</table>
+    
+
+    <script type="text/javascript" src="skatt.js"></script>
+
+  
+</body>
+</html>
